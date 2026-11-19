@@ -48,6 +48,8 @@ sites:
     maxResponseTime: 10000
 
 status-website:
+  # Sin dominio propio la página vive en /<repo>; sin esto los assets se piden desde la raíz y no carga.
+  baseUrl: /croydonista-status
   name: Trivia Croydonistas 2026
   theme: light
   introTitle: "Estado de **Trivia Croydonistas 2026**"
