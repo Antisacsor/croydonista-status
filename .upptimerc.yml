@@ -49,8 +49,8 @@ sites:
     maxResponseTime: 10000
 
 status-website:
-  # Sin dominio propio la página vive en /<repo>; sin esto los assets se piden desde la raíz y no carga.
-  baseUrl: /croydonista-status
+  # DNS: CNAME status-croydonista → antisacsor.github.io
+  cname: status-croydonista.massivespace.pro
   name: Trivia Croydonistas 2026
   logoUrl: https://trivia.massivespace.pro/logo/logo_croydon.png
   favicon: https://trivia.massivespace.pro/logo/logo_croydon.png
@@ -92,7 +92,7 @@ status-website:
   introMessage: Revisamos la app de la participante, la API y el panel cada 5 minutos. Si algo falla, aquí lo verás.
   navbar:
     - title: Estado
-      href: /croydonista-status/
+      href: /
 
 i18n:
   locale: es-CO
