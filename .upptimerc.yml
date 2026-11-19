@@ -91,7 +91,7 @@ status-website:
   introMessage: Revisamos la app de la participante, la API y el panel cada 5 minutos. Si algo falla, aquí lo verás.
   navbar:
     - title: Estado
-      href: /
+      href: /croydonista-status/
 
 i18n:
   locale: es-CO
