@@ -4,9 +4,10 @@ owner: Antisacsor
 repo: croydonista-status
 user-agent: croydonista-status
 
-# Cada caída abre un issue asignado a esta persona: GitHub le avisa por email.
+# Cada caída abre un issue asignado a estas personas: GitHub le avisa por email.
 assignees:
   - pepe0062
+  - josefo727
 
 # Por defecto Upptime borra los issues de caídas de menos de 15 min; así quedan en el historial.
 skipDeleteIssues: true
