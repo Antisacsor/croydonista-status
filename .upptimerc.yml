@@ -41,11 +41,12 @@ sites:
     __dangerous__body_down_if_text_missing: '<div id="root">'
     maxResponseTime: 10000
 
-  # El panel está detrás de autenticación básica de nginx: un 401 significa que está arriba.
+  # El panel ya no tiene autenticación básica de nginx (sirve la app con 200); se acepta también
+  # 401 por si se vuelve a activar.
   - name: Panel de administración
     slug: admin
     url: https://admin.massivespace.pro
-    expectedStatusCodes: [401]
+    expectedStatusCodes: [200, 401]
     maxResponseTime: 10000
 
 status-website:
