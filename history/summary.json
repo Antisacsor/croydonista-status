@@ -76,19 +76,19 @@
     "url": "https://admin.massivespace.pro",
     "icon": "https://icons.duckduckgo.com/ip3/admin.massivespace.pro.ico",
     "slug": "admin",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
-    "time": 178,
-    "timeDay": 178,
-    "timeWeek": 178,
-    "timeMonth": 178,
-    "timeYear": 178,
+    "status": "up",
+    "uptime": "80.45%",
+    "uptimeDay": "80.45%",
+    "uptimeWeek": "80.45%",
+    "uptimeMonth": "80.45%",
+    "uptimeYear": "80.45%",
+    "time": 171,
+    "timeDay": 171,
+    "timeWeek": 171,
+    "timeMonth": 171,
+    "timeYear": 171,
     "dailyMinutesDown": {
-      "2026-11-20": 0
+      "2026-11-20": 94
     }
   }
 ]
